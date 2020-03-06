@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-  array.length
+  array.length.times do |count|
 end
  nil
 end 
