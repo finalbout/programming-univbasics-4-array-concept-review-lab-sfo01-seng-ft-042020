@@ -16,7 +16,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  x = 2 
+  x = 3
   array.length.times{ |index| x = array[index] if array[index] < x }
   x
 end
